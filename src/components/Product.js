@@ -4,7 +4,7 @@ class Product extends Component {
     render() {
         return (
             <div>
-               <h3>Product...</h3> 
+               <h3>Product- product list...</h3> 
             </div>
         )
     }

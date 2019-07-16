@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+/* My code start */
+/* Navbar */
+nav.navbar.navbar-expand-sm.bg-dark.navbar-dark.px-sm-5 img {
+  width: 80px;
+  height: 80px;
+}
