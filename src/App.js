@@ -1,21 +1,30 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import ProductList from './components/ProductList';
+import Product from './components/Product';
+import Details from './components/Details';
+import Cart from './components/Cart';
+import Default from './components/Default';
 
 function App() {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-8">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum 
-            vel similique sit dolores quis expedita laudantium non repellat, ex aliquid.</p>
-            <i className="fa fa-home"></i>
+    <React.Fragment>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+                <Navbar/>
+                <ProductList/>
+                <Product/>
+                <Details/>
+                <Cart/>
+                <Default/>
+            </div>
+          </div>
         </div>
-        <div className="col-md-4">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, tenetur.</p>
-        </div>
-      </div>
-    </div>
+    </React.Fragment>
+    
   );
 }
 
