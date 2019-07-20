@@ -12,9 +12,10 @@ class Navbar extends Component {
                        <Link to="/" className="nav-link">Products</Link>
                    </li>
                </ul>
-               <Link to="/cart" className="ml-auto">
+               <Link to="/cart" className="ml-auto right-side">
                    <button>
-                       <i className="fa fa-cart-plus">My Cart</i>
+                       <span className="mr-2"><i className="fa fa-cart-plus"></i></span>
+                       My Cart
                    </button>
                </Link>
             </nav>
