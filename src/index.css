@@ -28,3 +28,33 @@ li.nav-item.ml-5 a {
 .top-title strong {
   color: #21af17;
 }
+/* product card */
+.card-img-top {
+  transition: .3s;
+}
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+.img-container:hover .card-img-top {
+  transform: scale(1.1);
+}
+.cart-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  background: #36b13a;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 35px 5px 35px;
+  transform: translate(100%, 100%);
+}
+.img-container:hover .cart-btn {
+  transition: .3s;
+  transform: scale(1.1);
+}
+.cart-btn:hover {
+  background: #2c8226;
+  color: #e6e1dc;
+}
