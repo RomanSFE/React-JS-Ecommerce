@@ -31,6 +31,18 @@ class Details extends Component {
                                     <h4 className="price-text"><strong>price - <span>$ </span>{price}</strong></h4>
                                     <p className="text-capitalize font-weight-bold mt-3 mb-0">Info About The Product</p>
                                     <p className="text-muted mt-1">{info}</p>
+                                    <div>
+                                    <Link to="/">
+                                        <button className="add-cart-btn mr-2 text-capitalize">Back to products</button>
+                                    </Link>
+                                        <button className="add-to-cart text-capitalize" disabled={inCart?true:false} 
+                                        onClick={() =>{
+                                            value.addtoCart(id);
+                                            value.openModal(id);
+                                        }}
+                                        >
+                                        {inCart ? "inCart": 'add to cart'}</button>
+                                    </div>
                               </div>
                           {/* product info */}
                       </div>
