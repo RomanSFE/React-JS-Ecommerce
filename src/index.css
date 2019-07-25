@@ -73,3 +73,21 @@ li.nav-item.ml-5 a {
 #modal{
   background: #fff;
 }
+/* cart inc dec button */
+.btn-black {
+  background: #6bd043;
+  color: #fff;
+  font-size: 20px !important;
+  border-radius: 0;
+  border: 1px solid #70dc5c;
+}
+
+.btn-black:hover {
+  background: #1e6f0a;
+  color: #fff;
+}
+.cart-icon{
+  cursor: pointer;
+  color: #d65e68;
+  font-size: 20px;
+}
