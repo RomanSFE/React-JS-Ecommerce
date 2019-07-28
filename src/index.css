@@ -91,3 +91,69 @@ li.nav-item.ml-5 a {
   color: #d65e68;
   font-size: 20px;
 }
+button.my-cartt {
+  background: #39da5c;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+}
+.card-footer {
+  background: #e3f3e6;
+  color: #000;
+}
+h5.price-color {
+  color: #f10751bd;
+  font-size: 23px;
+}
+.em-cartt h2 {
+  color: #5cd413;
+  font-size: 46px;
+}
+#modal h5 {
+  color: #101010;
+  background: #93f9af;
+  opacity: 0.7;
+}
+h5.itm-addd {
+  background: #2bec09 !important;
+  color: #101010 !important;
+  text-transform: uppercase;
+}
+button.cont-shopp {
+  background: #fd3f3fb8;
+  border: none;
+  color: #fff;
+}
+button.cart-shopp {
+  background: #33ce22eb;
+  color: #fff;
+  border: none;
+}
+.row.pro-desc p {
+  color: #f31647cc;
+  font-size: 17px;
+}
+h5.subtotal-cls {
+  color: #16b924;
+}
+h5.subtotal-ttl span {
+  color: #ec4040d6;
+  font-size: 25px;
+}
+h5.subtotal-ttl strong {
+  color: #b3645c;
+  font-size: 25px;
+}
+button.add-cart-btn {
+  background: #e83333bd;
+  color: #fff;
+  border: none;
+}
+button.add-to-cart {
+  background: #44b538;
+  color: #fff;
+  border: none;
+}
+.img-container img {
+  max-height: 222px !important;
+}

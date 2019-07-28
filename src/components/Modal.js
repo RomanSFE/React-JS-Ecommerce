@@ -17,7 +17,7 @@ class Modal extends Component {
                         <div className="container modal-section">
                             <div className="row">
                                 <div id="modal" className="col-8 col-md-6 p-2 mx-auto col-lg-6 text-center text-capitalize">
-                                    <h5>Item Added to the cart</h5>
+                                    <h5 className="itm-addd">Item Added to the cart</h5>
                                     <img src={img} alt="product" className="img-fluid"/>
                                     <h5>{title}</h5>
                                     <h5 className="modal-price">Price - ${price}</h5>

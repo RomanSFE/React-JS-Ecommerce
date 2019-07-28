@@ -13,7 +13,7 @@ class Navbar extends Component {
                    </li>
                </ul>
                <Link to="/cart" className="ml-auto right-side">
-                   <button>
+                   <button className="my-cartt">
                        <span className="mr-2"><i className="fa fa-cart-plus"></i></span>
                        My Cart
                    </button>
